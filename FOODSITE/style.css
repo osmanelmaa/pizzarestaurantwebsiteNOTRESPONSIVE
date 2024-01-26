@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Nunito:wght@300;400&family=Oswald:wght@300;400;700&family=Poppins:ital,wght@0,400;1,500&family=Raleway&family=Roboto+Condensed&family=Ubuntu:wght@300&display=swap');
+*{
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+            box-sizing: border-box;
+            outline: none;
+            transition: 0.2s ease;
+            border: none;
+}
+body{
+            background-color: var(--main-color);
+            background: url(images/pexels-narda-yescas-1566837.jpg) no-repeat;
+            background-size: cover;
+            height: 100vh;
+         
+}
+
+:root{
+            --main-color: #e84242;
+            --black-color: #0e0e0e;
+            --border: 1px solid rgba(255,255,255,0.4);
+}
+
+section{
+            padding: 25px 30px;      
+}
+.btn{
+            padding: 12px;
+            border: var(--border);
+            border-radius: 25px;
+            color: white;
+            background-color: var(--black-color);
+
+}
+.btn:hover{
+            color: var(--black-color);
+            background: white;
+}
+/* header section start */
+
+
+.header .logo img{
+            width: 75px;
+}
+
+.header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 25px 30px;
+            background: white;
+            border-radius: 50px;
+            margin-top: 25px;
+           
+            
+}
+.header .navbar a{
+            font-size: 22px;
+            gap: 20px;
+            color: var(--black-color);
+            font-weight: 500;
+            margin-right: 15px;
+
+}
+.header .navbar a:hover{
+            border-bottom: 1px solid white;
+}
+
+.header .icons i{
+            font-size: 28px;
+            color: var(--black-color);
+            cursor: pointer;
+            margin-right: 5px;
+}
+
+/* header section end */
+
+/* home section start */
+
+.home{
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            
+           
+}
+.home .content{
+            max-width: 600px;
+            
+}
+.home .content h3{
+            font-size: 60px;
+            font-weight:600;
+            color: var(--black-color);
+}
+
+.home .content p{
+            font-size: 21px;
+            font-weight: 300;
+            color: black;
+}
+.home .content a{
+            margin-top: 10px;
+}
+
+/* home section end */
+
+/* products section start */
+.products{
+            margin-top: 50px;
+            background: var(--main-color);
+            border-bottom: 3px solid white;     
+            
+}
+.container{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+}
+.container .box4{
+            flex-direction: column;
+            background: var(--black-color);
+            border-radius: 15px;
+            padding: 15px;
+            
+}
+.footdetails{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 5px;
+}
+.container .box4 p,
+.container .box4 small{
+            color: white;
+            padding: 7px;
+}
+.container .box4 img{
+            width: 250px;
+            height: 250px;
+            border-radius: 15px;
+            border: var(--border);
+            background-size: cover;
+}
+
+
+
+/* products section end */
+/* feedbacks section start */
+.feedbacks{
+            background: var(--main-color);
+}
+
+.wrapper .box3{
+            background: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-radius: 15px;
+            
+}
+.wrapper .box3 .imgdetails p{
+          padding: 15px;
+          font-size: 15px;
+            
+}
+.wrapper .box3 img{
+            width: 250px;
+            height: 250px;
+            border-radius: 15px;
+           
+            background-size: cover;
+            padding: 15px;
+            background-color: var(--black-color);
+}
+/* feedbacks section end */
+
+/* locaiton section start */
+.locaiton{
+            border-top: 2px solid white;
+            background: var(--main-color);
+}
+.locationsection{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background: var(--black-color);
+            height: 600px;
+}
+.locationsection .locaitonimg img{
+            width:300px;
+            margin-top: -15px;
+}
+.locationsection .contact .form input[type="email"],
+.locationsection .contact .form input[type="text"]{
+            width: 500px;
+            display: block;
+            padding: 25px;
+            margin-bottom: 25px;
+            border: var(--border);
+            border-radius: 1px;
+            text-align: center;
+
+}
+.button{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+}
+.locationsection .contact .btn1{
+            padding: 12px;
+            border: var(--border);
+            border-radius: 25px;
+            color: black;
+            background-color: white;
+            transition: 0,2s ease;
+            
+}
+
+
+/* locaiton section end */
+/* Footer section start */
+
+.bottom{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+}
+.bottom .socialicons i{
+            font-size: 40px;
+            margin-right: 5px;
+            color: var(--main-color);
+            cursor: pointer;
+
+}
+.bottom .footeritems a{
+            border: 1px solid var(--main-color);
+            color: var(--black-color);
+            padding: 5px;
+            background: var(--main-color);
+            border: var(--border);
+            border-radius: 2px;
+}
+.bottom .footeritems a:hover{
+            color: white;
+            background: var(--black-color);
+}
+.bottom .footeritems{
+            font-size: 25px;
+            margin-right: 5px;
+            
+}
+.bottom .logo img{
+            width: 150px;
+            cursor: pointer;
+}
+
+@media (max-width: 768px) {
+
+        .header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            padding: 25px 30px;
+        }
+
+
+
+    }
+
+/* Footer section end*/
+
+
